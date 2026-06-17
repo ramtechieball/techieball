@@ -5,47 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawfice</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 </head>
 <body>
-    <nav>
-        <div class="nav-one">
-            <h1 class="location"><svg class="loc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M541.9 139.5C546.4 127.7 543.6 114.3 534.7 105.4C525.8 96.5 512.4 93.6 500.6 98.2L84.6 258.2C71.9 263 63.7 275.2 64 288.7C64.3 302.2 73.1 314.1 85.9 318.3L262.7 377.2L321.6 554C325.9 566.8 337.7 575.6 351.2 575.9C364.7 576.2 376.9 568 381.8 555.4L541.8 139.4z"/></svg>123 street,new york,USA</h1>
-            <h1>call us for inquiry: <span style="color: #8D6653;">+01234567</span></h1>
+    <nav class="conatiner">
+        <div class="navbar_top">
+            <h1 class="location"><i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA</h1>
+            <h1 class="sec">Call Us for Inquiry: <span>+012 345 67890</span></h1>
         </div>
-        <div class="nav-two ">
-            <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M384 96L512 96C529.7 96 544 110.3 544 128C544 145.7 529.7 160 512 160L398.4 160C393.2 185.8 375.5 207.1 352 217.3L352 512L512 512C529.7 512 544 526.3 544 544C544 561.7 529.7 576 512 576L128 576C110.3 576 96 561.7 96 544C96 526.3 110.3 512 128 512L288 512L288 217.3C264.5 207 246.8 185.7 241.6 160L128 160C110.3 160 96 145.7 96 128C96 110.3 110.3 96 128 96L256 96C270.6 76.6 293.8 64 320 64C346.2 64 369.4 76.6 384 96zM439.6 384L584.4 384L512 259.8L439.6 384zM512 480C449.1 480 396.8 446 386 401.1C383.4 390.1 387 378.8 392.7 369L487.9 205.8C492.9 197.2 502.1 192 512 192C521.9 192 531.1 197.3 536.1 205.8L631.3 369C637 378.8 640.6 390.1 638 401.1C627.2 445.9 574.9 480 512 480zM126.8 259.8L54.4 384L199.3 384L126.8 259.8zM.9 401.1C-1.7 390.1 1.9 378.8 7.6 369L102.8 205.8C107.8 197.2 117 192 126.9 192C136.8 192 146 197.3 151 205.8L246.2 369C251.9 378.8 255.5 390.1 252.9 401.1C242.1 445.9 189.8 480 126.9 480C64 480 11.7 446 .9 401.1z"/></svg><h1>Lawfice</h1></div>
-            <div class="texts">
-                <div class="letter">Home</div>
-                <div class="letter">About</div>
-                <div class="letter">Pratice Area</div>
-                <div class="letter">Case Study</div>
-                <div class="letter">Lawyer</div>
-                <div class="letter">Blog</div>
-                <div class="letter">Pages</div>
-                <div class="letter">Contact</div>
+        <div class="nav_bottom">
+            <div class="navbar_logo"><i class="fa-solid fa-scale-balanced icon_one"></i><h1>Lawfice</h1></div>
+            <div class="navbar_menu">
+                <div class="navbar_item">Home</div>
+                <div class="navbar_item">About</div>
+                <div class="navbar_item">Pratice Area</div>
+                <div class="navbar_item">Case Study</div>
+                <div class="navbar_item">Lawyer</div>
+                <div class="navbar_item">Blog</div>
+                <div class="navbar_item">Pages</div>
+                <div class="navbar_item">Contact</div>
             </div>
         </div>
     </nav>
+
+
     <main>
-        <div class="first-page">
-            <div class="first-one"><div class="title">Your Trusted <span style="color: white;">Legal</span> Partner</div> <div class="sub-title">An Award Winning Law Firm Since 1990</div></div>
-            <div class="first-two"><div class="hero"><img src="./hero-slider-3.jpg" alt=""></div></div>
+        <div class="hero">
+            <div class="hero_content">
+                <div class="hero_title">Your Trusted <span style="color: white;">Legal</span> Partner</div> 
+                <div class="hero_subtitle">An Award Winning Law Firm Since 1990</div>
+            </div>
+            <div class="hero_image"><img src="./assests/hero-slider-3.jpg" alt="heroimage"></div>
         </div>
-        <div class="cards">
-            <div class="card">
-                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M341.9 38.1C328.5 29.9 311.6 29.9 298.2 38.1C273.8 53 258.7 57 230.1 56.4C214.4 56 199.8 64.5 192.2 78.3C178.5 103.4 167.4 114.5 142.3 128.2C128.5 135.7 120.1 150.4 120.4 166.1C121.1 194.7 117 209.8 102.1 234.2C93.9 247.6 93.9 264.5 102.1 277.9C117 302.3 121 317.4 120.4 346C120 361.7 128.5 376.3 142.3 383.9C164.4 396 175.6 406 187.4 425.4L138.7 522.5C132.8 534.4 137.6 548.8 149.4 554.7L235.4 597.7C246.9 603.4 260.9 599.1 267.1 587.9L319.9 492.8L372.7 587.9C378.9 599.1 392.9 603.5 404.4 597.7L490.4 554.7C502.3 548.8 507.1 534.4 501.1 522.5L452.5 425.3C464.2 405.9 475.5 395.9 497.6 383.8C511.4 376.3 519.8 361.6 519.5 345.9C518.8 317.3 522.9 302.2 537.8 277.8C546 264.4 546 247.5 537.8 234.1C522.9 209.7 518.9 194.6 519.5 166C519.9 150.3 511.4 135.7 497.6 128.1C472.5 114.4 461.4 103.3 447.7 78.2C440.2 64.4 425.5 56 409.8 56.3C381.2 57 366.1 52.9 341.7 38zM320 160C373 160 416 203 416 256C416 309 373 352 320 352C267 352 224 309 224 256C224 203 267 160 320 160z"/></svg></div>
-                <div class="num">70</div>
-                <div class="card-last">Award Winning</div>
+
+
+        <div class="about">
+            <div class="about_card">
+                <div class="about_icon"><i class="fa-solid fa-award icon"></i></div>
+                <div class="about_number">70</div>
+                <div class="about_title">Award Winning</div>
             </div>
-            <div class="card">
-                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M320 64C355.3 64 384 92.7 384 128C384 163.3 355.3 192 320 192C284.7 192 256 163.3 256 128C256 92.7 284.7 64 320 64zM416 376C416 401 403.3 423 384 435.9L384 480L256 480L256 435.9C236.7 423 224 401 224 376L224 336C224 283 267 240 320 240C373 240 416 283 416 336L416 376zM432 480L432 452.7C451.9 430.2 464 400.5 464 368L464 336C464 309.3 456.7 284.4 444.1 262.9C455.2 258.4 467.3 256 480 256C533 256 576 299 576 352L576 384C576 407.7 563.1 428.4 544 439.4L544 480L432 480zM96 439.4C76.9 428.4 64 407.7 64 384L64 352C64 299 107 256 160 256C172.7 256 184.8 258.5 195.9 262.9C183.3 284.3 176 309.3 176 336L176 368C176 400.5 188.1 430.1 208 452.7L208 480L96 480L96 439.4zM160 96C190.9 96 216 121.1 216 152C216 182.9 190.9 208 160 208C129.1 208 104 182.9 104 152C104 121.1 129.1 96 160 96zM480 96C510.9 96 536 121.1 536 152C536 182.9 510.9 208 480 208C449.1 208 424 182.9 424 152C424 121.1 449.1 96 480 96zM56 528L584 528C597.3 528 608 538.7 608 552C608 565.3 597.3 576 584 576L56 576C42.7 576 32 565.3 32 552C32 538.7 42.7 528 56 528z"/></svg></div>
-                <div class="num">500</div>
-                <div class="card-last">Our Lawyers</div>
+            <div class="about_card">
+                <div class="about_icon"><i class="fa-solid fa-people-group icon"></i></div>
+                <div class="about_number">500</div>
+                <div class="about_title">Our Lawyers</div>
             </div>
-            <div class="card">
-                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M576 304C576 436.5 461.4 544 320 544C282.9 544 247.7 536.6 215.9 523.3L97.5 574.1C88.1 578.1 77.3 575.8 70.4 568.3C63.5 560.8 62 549.8 66.8 540.8L115.6 448.6C83.2 408.3 64 358.3 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304z"/></svg></div>
-                <div class="num">7000</div>
-                <div class="card-last">Clients Review</div>
+            <div class="about_card">
+                <div class="about_icon"><i class="fa-solid fa-people-group icon"></i></div>
+                <div class="about_number">7000</div>
+                <div class="about_title">Clients Review</div>
+            </div>
+        </div>
+        <div class="fluid">
+            <div class="fluid_image"><img src="./assests/about-2.jpg" alt="aboutimg"></div>
+            <div class="fluid_text">
+                <h3><i class="fa-solid fa-square square"></i></i>ABOUT US</h4>
+                <h1 class="fluid_title">Meet the Firm Behind the Excellent Results</h1>
+                <p class="fluid_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum. Etiam mattis eros tellus, ac rhoncus leo blandit id. Cras eu urna eu nibh fringilla egestas.</p>
+                <h4 class="fluid_subtitle">Why Choose Us!</h4>
+                <p class="fluid_lorem lorem_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum. Etiam mattis eros tellus, ac rhoncus leo blandit id. Cras eu urna eu nibh fringilla egestas.</p>
+                <div class="fluid_list">
+                    <div class="list_order">
+                        <ul>
+                            <li>Certified Lawyers</li>
+                            <li>Proven Results</li>
+                            <li>Free Consultation</li>
+                        </ul>
+                    </div>
+                    <div class="list_order">
+                        <ul>
+                            <li>24/7 Support</li>
+                            <li>Skilled Advocates</li>
+                            <li>Successful Outcomes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fluid_button"><button>CONTACT US</button></div>
             </div>
         </div>
     </main>
