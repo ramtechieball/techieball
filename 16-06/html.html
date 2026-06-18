@@ -6,6 +6,7 @@
     <title>Lawfice</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
@@ -28,9 +29,6 @@
             </div>
         </div>
     </nav>
-
-
-    <main>
         <div class="hero">
             <div class="hero_content">
                 <div class="hero_title">Your Trusted <span class="hero_span">Legal</span> Partner</div> 
@@ -57,14 +55,22 @@
                 <div class="about_title">Clients Review</div>
             </div>
         </div>
-        <!-- <div class="fluid">
-            <div class="fluid_image"><img src="./assests/about-2.jpg" alt="aboutimg"></div>
+        <div class="fluid">
+            <div class="fluid_image">
+                <img src="./assests/about-2.jpg" alt="aboutimg">
+            </div>
             <div class="fluid_text">
-                <h3><i class="fa-solid fa-square square"></i></i>ABOUT US</h3>
+                <h3><i class="fa-solid fa-square square"></i>ABOUT US</h3>
                 <h1 class="fluid_title">Meet the Firm Behind the Excellent Results</h1>
-                <p class="fluid_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum. Etiam mattis eros tellus, ac rhoncus leo blandit id. Cras eu urna eu nibh fringilla egestas.</p>
+                <p class="fluid_lorem">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.
+                    Etiam mattis eros tellus, ac rhoncus leo blandit id. Cras eu urna eu nibh fringilla egestas.
+                </p>
                 <h4 class="fluid_subtitle">Why Choose Us!</h4>
-                <p class="fluid_lorem lorem_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum. Etiam mattis eros tellus, ac rhoncus leo blandit id. Cras eu urna eu nibh fringilla egestas.</p>
+                <p class="fluid_lorem lorem_two">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.
+                    Etiam mattis eros tellus, ac rhoncus leo blandit id. Cras eu urna eu nibh fringilla egestas.
+                </p>
                 <div class="fluid_list">
                     <div class="list_order">
                         <ul class="fluid_ul ul_border">
@@ -81,41 +87,41 @@
                         </ul>
                     </div>
                 </div>
-                <div class="fluid_button"><button>CONTACT US</button></div>
-            </div>
-        </div> -->
-        
-        
-        
-        <div class="w-full h-[200px] flex items-center">
-            <div class="flex flex-col w-full items-center justify-start">
-            <h4 class="text-[#C8B28B] flex items-center gap-2 mt-10 text-xl"><i class="fa-solid fa-square"></i>PRATICE AREA</h4>
-            <h1 class="text-[#1C202E] text-3xl leading-tight w-1/2 text-center font-bold md:text-5xl lg:text-5xl">Comprehensive Legal Solutions</h1>
+                <div class="fluid_button">
+                    <button>CONTACT US</button>
+                </div>
             </div>
         </div>
+                           <!-- tailwind starts here -->
+        <div class="flex flex-col w-full items-center justify-center px-4 mb-10 mt-5">
+                <h4 class="text-[#C8B28B] flex items-center gap-2 text-lg mb-3">
+                    <i class="fa-solid fa-square"></i>P R A C T I C E A R E A S</h4>
+                <h1 class="text-[#1C202E] text-3xl md:text-5xl lg:text-5xl  w-[90%] md:w-[70%] lg:w-1/2 text-center font-bold">Comprehensive Legal Solutions
+                </h1>
+            </div>
 
 
         <div class="w-full flex items-center justify-center">
-            <div class=" w-[50%] grid place-items-center gap-0 md:grid-cols-2 md:w-[60%] lg:grid-cols-3 lg:w-[90%]">
-        <div class="p-4 h-[300px] flex flex-col text-center items-center justify-center  gap-4 md:border-b md:border-r md:border-[##1C202E]">
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 w-[90%] mx-auto">
+        <div class="p-4 h-[300px] flex flex-col text-center items-center justify-center  gap-4 md:border-b md:border-r md:border-[#1C202E]">
             <i class="fa-solid fa-building  text-6xl text-[#C9B38C] "></i>
             <h2 class="text-2xl font-semibold">Corporate Law</h2>
             <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.</p>
             <i class="fa-solid fa-arrow-right  text-4xl text-[#C9B38C] "></i>
         </div>
-        <div class="p-4 h-[300px] flex flex-col text-center items-center justify-center gap-4 md:border-b  md:border-[##1C202E]">
+        <div class="p-4 h-[300px] flex flex-col text-center items-center justify-center gap-4 md:border-b  md:border-[#1C202E] lg:border-r">
             <i class="fa-solid fa-user-shield  text-6xl text-[#C9B38C] "></i>
             <h2 class="text-2xl font-semibold">Criminal Law</h2>
             <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.</p>
             <i class="fa-solid fa-arrow-right  text-4xl text-[#C9B38C] "></i>
         </div>
-        <div class=" p-4 h-[300px] flex flex-col text-center items-center justify-center gap-4  md:border-b md:border-r md:border-[##1C202E] lg:border-r-0">
+        <div class=" p-4 h-[300px] flex flex-col text-center items-center justify-center gap-4  md:border-b md:border-r md:border-[#1C202E] lg:border-r-0">
             <i class="fa-solid fa-house  text-6xl text-[#C9B38C] "></i>
             <h2 class="text-2xl font-semibold">Family Law</h2>
             <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.</p>
             <i class="fa-solid fa-arrow-right  text-4xl text-[#C9B38C] "></i>
         </div>
-        <div class="p-4 h-[300px] flex flex-col text-center items-center justify-center gap-4  md:border-b  md:border-[##1C202E]">
+        <div class="p-4 h-[300px] flex flex-col text-center items-center justify-center gap-4  md:border-b  md:border-[#1C202E] lg:border-r">
             <i class="fa-solid fa-file-waveform  text-6xl text-[#C9B38C] "></i>
             <h2 class="text-2xl font-semibold">Property Law</h2>
             <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.</p>
@@ -136,9 +142,77 @@
 
         </div>
         </div>
-        
-        
 
-    </main>
+                                    <!-- case studies -->
+            
+            <div class="flex flex-col w-full items-center justify-center px-4 mb-10 mt-5">
+                <h4 class="text-[#C8B28B] flex items-center gap-2 text-lg mb-3">
+                    <i class="fa-solid fa-square"></i>C A S E S T U D I E S</h4>
+                <h1 class="text-[#1C202E] text-3xl md:text-5xl lg:text-5xl  w-[90%] md:w-[70%] lg:w-1/2 text-center font-bold">Successful Outcomes for Our Trusted Clients
+                </h1>
+            </div>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-[90%] mx-auto">
+                <div class="border border-gray-300 p-6 flex flex-col gap-5">
+                    <div class="flex justify-between items-start gap-4">
+                        <h4 class="text-[#1C202E] text-2xl font-bold">Winning Corporate Fraud Defense</h4>
+                        <h1 class="text-[#C8B28B] text-6xl font-bold">01</h1>
+                    </div>
+                        <p class="text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.</p>
+                        <img src="./assests/case-1.jpg" alt="Case Study" class="w-full">
+                    </div>
+                <div class="border border-gray-300 p-6 flex flex-col gap-5">
+                    <div class="flex justify-between items-start gap-4">
+                        <h4 class="text-[#1C202E] text-2xl font-bold">Successful Real Estate Dispute</h4>
+                        <h1 class="text-[#C8B28B] text-6xl font-bold">02</h1>
+                    </div>
+                        <p class="text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.</p>
+                        <img src="./assests/case-2.jpg" alt="Case Study" class="w-full">
+                    </div>
+                <div class="border border-gray-300 p-6 flex flex-col gap-5">
+                    <div class="flex justify-between items-start gap-4">
+                        <h4 class="text-[#1C202E] text-2xl font-bold">Major Personal Injury Settlement</h4>
+                        <h1 class="text-[#C8B28B] text-6xl font-bold">03</h1>
+                    </div>
+                        <p class="text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.</p>
+                        <img src="./assests/case-3.jpg" alt="Case Study" class="w-full">
+                    </div>  
+            </div>
+
+                                       <!-- consulstation -->
+            <div class="flex flex-col lg:flex-row w-[90%] mx-auto mt-5">
+                <div class="w-[100%]"><img src="./assests/quote.jpg" alt="quoteimg" class="h-[70%] w-[90%]">
+                </div>
+
+                <!-- ///////////////// -->
+                    
+                <div class="flex mt-5 flex-col w-full items-start justify-start">
+                    <h4 class="text-[#C8B28B] flex items-center gap-2 text-xl mb-3">
+                        <i class="fa-solid fa-square"></i>Consultation
+                    </h4>
+                    
+                    <h1 class="text-[#1C202E] text-3xl md:text-5xl lg:text-4xl lg:w-[90%] md:w-full text-left font-bold">
+                        Schedule Your Free Consultation
+                    </h1>
+                    <p class="text-gray-600 w-[90%]  mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis non sapien tincidunt gravida vel non ipsum.
+                    </p>
+                    <div class="flex flex-col lg:flex-row w-full gap-4 mt-5">
+                        <input class="border px-3 py-3 w-full" type="text" placeholder="Your name">
+                        <input class="border px-3 py-3 w-full" type="email" placeholder="Your email">
+                    </div>
+                    
+                    <div class="flex flex-col lg:flex-row w-full gap-4 mt-5">
+                        <input class="border px-3 py-3 w-full" type="number" placeholder="Your mobile number">
+                        <input class="border px-3 py-3 w-full" type="text" placeholder="Service name">
+                    </div>
+                    <textarea class="border px-3 py-3 w-full lg:w-[100%] xl:w-[100%] h-[120px] mt-5" placeholder="Message"></textarea>
+                    <button class="bg-[#C9B38C] hover:bg-[#c2b59e] text-black font-semibold py-3 px-6 mt-7 cursor-pointer">SUBMIT NOW</button>
+                </div>
+            </div>    
 </body>
 </html>

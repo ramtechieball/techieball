@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 
 body{
@@ -201,7 +197,7 @@ nav{
 
 
 .fluid{
-    height: 700px;
+    min-height: 700px;
     width: 100%;
     display: flex;
     background-color: var(--main-second);
@@ -363,7 +359,7 @@ nav{
     }
     .fluid_list{
     font-size: 0.8rem;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 1.5;
     }   
 
@@ -645,7 +641,7 @@ nav{
     }
 
     .fluid{
-        height: 1300px;
+        height: auto;
         width: 100%;
         /* padding-left: 25px; */
         padding-right: 40px;
